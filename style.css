@@ -1,0 +1,42 @@
+header{
+    background-color: dimgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+body{
+    margin: 0;
+    font-family: 'Balsamiq Sans';
+}
+
+nav a{
+    color: rgb(212, 0, 255);
+    font-size: 20px;
+    margin: auto;
+    text-decoration: none;
+}
+
+button{
+    padding: 20px 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: lightgray;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+button:hover{
+    background-color: rgb(230, 230, 230);
+    color: red;
+    transform: scale(1.1);
+}
+
+div{
+    text-align: center;
+    color: rgb(255, 0, 0);
+    padding: 300px ;
+    font-size: 25px;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.253)) , url(font.jpg);
+    background-size: cover;
+}
