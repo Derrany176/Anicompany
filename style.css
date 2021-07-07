@@ -1,19 +1,19 @@
 header{
-    background-color: dimgray;
+    background-color: rgb(184, 157, 187);
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 body{
     margin: 0;
-    font-family: 'Balsamiq Sans';
+    background-color: black;
+    font-family:  'Pacifico';
 }
 
 nav a{
-    color: rgb(212, 0, 255);
+    color: rgb(0, 0, 0);
     font-size: 20px;
     margin: auto;
-    text-decoration: none;
 }
 
 button{
@@ -34,9 +34,32 @@ button:hover{
 
 div{
     text-align: center;
-    color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
     padding: 300px ;
     font-size: 25px;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.253), rgba(0, 0, 0, 0.253)) , url(font.jpg);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.253), rgba(212, 143, 231, 0.158)) , url(font.jpg);
     background-size: cover;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+@media(max-width: 500px){
+    header{
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+    }
+nav{
+    margin: 10px 0;
+}
+h1{
+    font-size: 30px;
+}
+p{
+    font-size: 18px;
+}
+div{
+    padding: 20px 10px;
+}
 }
